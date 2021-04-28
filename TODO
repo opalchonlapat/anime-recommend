@@ -1,0 +1,16 @@
+Comments จากการดูรอบแรกนะ
+    Metrics - MSE, MAPE, others and which ones to use when
+    Train/validaiton/test splits - วิธี split ยังไงให้ยุติธรรมที่สุด / ทำโมเดลเราไม่สามารถทาย (user, item) ที่ไม่เคยเห็นได้? / ถ้าเราอยากทำนายสำหรับ user ใหม่หรือ item ใหม่ เราควรทำยังไง
+    Distribution ของ ratings, # of ratings given นี่มีอะไรน่าสนใจบ้าง?
+    Hyperparameters ของ embedding size ทำไมเลือกเท่านี้
+    y_range=[1, 10] คืออะไร ทำไมถึง output เป็น sigmoid แล้วค่อยคูณด้วย y_range นี้? ดีกว่า output เป็นคะแนนดิบๆยังไง
+    เราเห็นอะไรจาก PCA? ลอง UMAP? tSNE?
+    ทำแอพโดยให้เราใส่ anime / คะแนนที่ให้ แล้วแนะนำ anime ได้ไหม? อาจจะใช้การ lookalike user ที่ให้คะแนนเหมือนกันเราแล้วใช้ recommendation ของเขา
+
+เท่าที่พี่ดู น่าสนใจคือ
+    ทำ widget ให้หา similar anime ได้
+    benchmark vs predict top animes (?) / most frequent anime?
+
+บทความ
+    เขียนเรื่อง loss, metric
+    เขียนเรื่องความต่าง MAE, MAPE
