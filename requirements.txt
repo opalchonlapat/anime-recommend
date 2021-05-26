@@ -1,2 +1,5 @@
 fastai==2.2.7
 voila
+bqplot
+ipympl
+ipyvolume
