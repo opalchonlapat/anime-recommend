@@ -8,11 +8,9 @@ Data source: [Kaggle Anime Recommendations Database](https://www.kaggle.com/Coop
 
 Training notebook: [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BncJGmCwiezahoeJYs2fHmf1tb9G84YD?authuser=1)
 
-Similar anime playground: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opalchonlapat/anime-recommend/835eb101f1b5f200e6d2df20c1bfae3d215cba3f?filepath=notebook%2Fsimilar_anime.ipynb)
+Similar anime playground: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opalchonlapat/anime-recommend/92c13028c68d47fee48ee651035fae1e7f675eb1?filepath=notebook%2Fsimilar_anime.ipynb)
 
 ## Evaluation
-
----
 
 | Model                             | MAE     |
 |-----------------------------------|---------|
@@ -27,8 +25,6 @@ Similar anime playground: [![Binder](https://mybinder.org/badge_logo.svg)](https
 
 
 ## Usage
-
----
 
 - [Anime_recommendation_dataset.ipynb](notebook/Anime_recommendation_dataset.ipynb): Jupyter notebook for training
 - [similar_anime.ipynb](notebook/similar_anime.ipynb): Find similar anime from embedding
